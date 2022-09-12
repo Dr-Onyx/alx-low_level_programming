@@ -9,12 +9,12 @@ int main(void)
 {
 	int a = 0;
 
-	a = a++;
-
 	while (a < 10)
 	{
 		printf("%d\n", a);
 	}
+
+	a = a++;
 
 	return (0);
 }
