@@ -3,7 +3,7 @@
 /**
  * main - prints the first 52 Fibocci number
  *
- * Return: Always 0.
+ * Return: Nothing!
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (i == 0)
 			printf("%ld", j);
-		
+
 		else if (i == 1)
 			printf(",%ld", k);
 
@@ -25,8 +25,8 @@ int main(void)
 			j = k - j;
 			printf(",%ld", k);
 		}
-		
-		++1;
+
+		++i;
 	}
 
 	printf("\n");
