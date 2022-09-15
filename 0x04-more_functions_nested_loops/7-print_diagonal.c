@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - draws a diagonal line of backslashes
+ * print_diagonal - prints diagonal lines of backslashes
  * @n: number of times the character should be printed
  *
  * Return: void
@@ -14,7 +14,7 @@ void print_diagonal(int n)
 	while (i < n && n > 0)
 	{
 		ii = 0;
-		while (ii < 1)
+		while (ii < i)
 		{
 			_putchar(' ');
 
