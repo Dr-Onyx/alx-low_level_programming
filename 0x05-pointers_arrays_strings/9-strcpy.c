@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcpy - copies the string,
+ * _strcpy - copies the string,
  * including the terminating null byte
  * @dest: buffer to copy the string to
  * @src: the source string to copy
@@ -11,12 +11,12 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
+	int ind = 0;
 
-	while (src[i])
+	while (src[ind])
 	{
-		dest[i] = src[i];
-		i++;
+		dest[ind] = src[ind];
+		ind++;
 	}
 
 	return (dest);
