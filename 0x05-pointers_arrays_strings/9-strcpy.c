@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _strcpy - copies the string,
@@ -11,13 +12,6 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int ind = 0;
-
-	while (src[ind])
-	{
-		dest[ind] = src[ind];
-		ind++;
-	}
-
+	strcpy(dest, src);
 	return (dest);
 }
