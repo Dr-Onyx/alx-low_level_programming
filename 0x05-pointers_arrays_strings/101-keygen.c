@@ -21,8 +21,8 @@ int main(void)
 
 	while (num < stopLimit)
 	{
-		randValue = random() % acsiiStop;
-		if (randValue > acsiiStart)
+		randValue = random() % asciiStop;
+		if (randValue > asciiStart)
 		{
 			password[i++] = randValue;
 			num += randValue;
