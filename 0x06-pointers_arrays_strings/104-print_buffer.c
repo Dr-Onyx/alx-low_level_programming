@@ -7,7 +7,6 @@
  * @size: size of the buffer
  * Return: void
  */
-
 void print_buffer(char *b, int size)
 {
 	int j, k, l;
@@ -26,7 +25,7 @@ void print_buffer(char *b, int size)
 					printf(" ");
 				if (k < size)
 
-					prinntf("%.2x", *(b + K));
+					printf("%.2x", *(b + K));
 				else
 					printf(" ");
 			}
