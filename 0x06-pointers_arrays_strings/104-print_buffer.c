@@ -5,7 +5,7 @@
  * print_buffer - prints a buffer
  * @b: buffer
  * @size: size of the buffer
- * Return: void
+ * Return: null void
  */
 void print_buffer(char *b, int size)
 {
