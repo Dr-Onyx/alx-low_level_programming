@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - prints sum
- * @a: pointer
+ * print_diagsums - prints sums
+ * @a: a pointer
  * @size: size
  */
 
