@@ -27,24 +27,26 @@ int main(int argc, char **argv)
 
 	if (!*p)
 	{
-		while (total < 1)
+		while (total > 1)
 		{
 			for (i = 0, i < sizeof(cents[i]); i++)
 			{
-				count += total / cents[i];
-				total = total % cents[i];
+				if (total >= cents[i])
+				{
+					count += total / cents[i];
+					total = total % cents[i];
+				}
 			}
 		}
+		if (total == 1)
+			count ++;
 	}
-	if (total == 1)
-		count ++;
-}
-else
-{
-	printf("Error\n");
-	return (1);
-}
-
-printf("%d\n", count);
-return (0);
+	else
+	{
+		printf("Error\n");
+		return (1);
+	}
+	
+	printf("%d\n", count);
+	return (0);
 }
