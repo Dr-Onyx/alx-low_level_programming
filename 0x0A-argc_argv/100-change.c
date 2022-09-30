@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 	{
 		while (total > 1)
 		{
-			for (i = 0, i < sizeof(cents[i]); i++)
+			for (i = 0; i < sizeof(cents[i]); i++)
 			{
 				if (total >= cents[i])
 				{
@@ -39,14 +39,14 @@ int main(int argc, char **argv)
 			}
 		}
 		if (total == 1)
-			count ++;
+			count++;
 	}
 	else
 	{
 		printf("Error\n");
 		return (1);
 	}
-	
+
 	printf("%d\n", count);
 	return (0);
 }
