@@ -20,9 +20,9 @@ int main(int argc, char **argv)
 		return (0);
 	}
 
-	for (i = 1; argv[1]; i++)
+	for (i = 1; argv[i]; i++)
 	{
-		j = strtol(argv[1], &flag, 10);
+		j = strtol(argv[i], &flag, 10);
 		if (*flag)
 		{
 			printf("Error\n");
