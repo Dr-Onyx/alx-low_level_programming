@@ -35,11 +35,11 @@ char *str_concat(char *s1, char *s2)
 }
 
 /**
-* _strlen - gets the length of a string
-* @s: string
-*
-* Return: length of the string
-*/
+ * _strlen - gets the length of a string
+ * @s: string
+ *
+ * Return: length of the string
+ */
 int _strlen(const char *s)
 {
 	int i = 0;
