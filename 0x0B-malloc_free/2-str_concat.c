@@ -1,7 +1,7 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
 
 int _strlen(const char *s);
 
@@ -12,7 +12,6 @@ int _strlen(const char *s);
  *
  * Return: pointer to the concatenated string
  */
-
 char *str_concat(char *s1, char *s2)
 {
 	int i = 0, j = 0;
@@ -21,7 +20,7 @@ char *str_concat(char *s1, char *s2)
 	if (s1 == NULL)
 		s1 = "\0";
 	if (s2 == NULL)
-		s2 = "\0';
+		s2 = "\0";
 	i = _strlen(s1);
 	j = _strlen(s2);
 
