@@ -34,6 +34,6 @@ int main(int argc, char **argv)
 		exit(99);
 	}
 
-	printf("%d\n"), f(a, b));
+	printf("%d\n", f(a, b));
 	return (0);
 }
