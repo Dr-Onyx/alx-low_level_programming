@@ -1,21 +1,3 @@
-
-Dchedos
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x15-file_io/100-elf_header.c
-@Dchedos
-Dchedos Task 4. Program that displays the information contained in the ELF he…
-…
- 1 contributor
-Executable File  314 lines (286 sloc)  6.66 KB
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
